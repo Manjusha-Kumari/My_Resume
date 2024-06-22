@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/header/Header';
+import Experience from './components/experience/Experience';
+import Projects from './components/projects/Projects';
+import Education from './components/education/Education';
+import Skills from './components/skills/Skills'
+import Achievements from './components/achivements/Achievements'
+import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="app-container">
+      <Header />
+      <Row>
+        <Col md={6} className="left-column">
+          <Experience />
+          <Projects />
+        </Col>
+        <Col md={6} className="right-column">
+          <Education />
+          <Skills />
+          <Achievements />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

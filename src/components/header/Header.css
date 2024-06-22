@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+header {
+  margin-bottom: 25px;
+}
+
+.left-column {
+  text-align: left;
+}
+
+.left-column h1{
+  font-size: 4rem;
+  font-family: 'Merriweather Bold', serif;
+  font-weight: bold;
+}
+
+.right-column {
+  text-align: left;
+  padding: 30px;
+}
+
+header h1 {
+  color: #1e90ff;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.objective {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+}
+
+.contact-info p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; 
+  font-size: 0.9rem;
+}
+
+header a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}

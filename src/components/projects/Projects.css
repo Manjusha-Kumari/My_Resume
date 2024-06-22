@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.projects {
+  margin-bottom: 70px;
+  margin-right: 40px;
+}
+
+.projects h2 {
+  color: #1e90ff;
+  border-bottom: 3px solid #1e90ff;
+  padding-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.projects h3 {
+  margin-top: 5px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.projects p {
+  margin: 5px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.projects ul{
+  list-style-type: disc;
+  padding: 0;
+}
+
+.projects ul li{
+  margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.itm-container{
+  margin-bottom: 45px;
+}
+
+.itm-container a{
+  font-style: italic;
+  margin-bottom: 10px;
+  padding: 10px;
+}

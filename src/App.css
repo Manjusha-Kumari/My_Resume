@@ -1,38 +1,74 @@
-.App {
+
+.app-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+header {
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1 {
+  color: #1e90ff;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+header .objective {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+header .contact-info p {
+  margin: 5px 0;
+}
+
+header a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.left-column,
+.right-column {
+  padding: 15px;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #1e90ff;
+  border-bottom: 2px solid #1e90ff;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  
+  .left-column,
+  .right-column {
+    padding: 10px;
   }
 }
