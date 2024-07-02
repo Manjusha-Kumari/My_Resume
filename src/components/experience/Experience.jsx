@@ -5,9 +5,9 @@ const experienceData = [
   {
     organisation: 'MNIT, Jaipur — Research Intern',
     time: 'June 2024 - Present',
-    intro: 'Developing and implementing anomaly detection algorithms for identifying unusual patterns in text and numerical data.',
-    development: 'Preprocessing and cleaning text and numerical data to prepare it for analysis.',
-    tech: 'Tech Stack: Python, Python libraries: Scikit-learn, TensorFlow, Pandas, Numpy.'
+    intro: 'Implemented and fine-tuned an MLP model in Python using TensorFlow/Keras.',
+    development: 'Performed data preprocessing, feature selection, and normalization on the Pima Indians Diabetes Database. Evaluated model performance using metrics such as accuracy, precision, recall, and F1 score.',
+    tech: 'Conducted hyperparameter tuning to optimize model performance. Visualized data and results using libraries such as Matplotlib and Seaborn.'
   }
 ];
 
