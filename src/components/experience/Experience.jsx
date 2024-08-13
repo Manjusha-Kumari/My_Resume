@@ -3,11 +3,12 @@ import './Experience.css';
 
 const experienceData = [
   {
-    organisation: 'MNIT, Jaipur — Research Intern',
-    time: 'June 2024 - Present',
-    intro: 'Implemented and fine-tuned an MLP model in Python using TensorFlow/Keras.',
-    development: 'Performed data preprocessing, feature selection, and normalization on the Pima Indians Diabetes Database. Evaluated model performance using metrics such as accuracy, precision, recall, and F1 score.',
-    tech: 'Conducted hyperparameter tuning to optimize model performance. Visualized data and results using libraries such as Matplotlib and Seaborn.'
+    organisation: 'Amazon,HYD-13—SDEIntern',
+    time: 'JULY 2024- PRESENT',
+    team: 'CSConcessions-Policies',
+    intro: 'Resolved a persistent exception thrown by the GetResolution API, actively used for 90 days across NA, JP, andEUregionsin100%treatmentmode.',
+    development: 'Migrated DTreeService to DTreeLibrary, enhancing e ciencybyreducingnetworkcalls duetotheshift fromservice to library architecture.',
+    tech: ' Skills: Java, Mockito, Debugging, Writing unit tests, Testing Frameworks, Weblab, TypeScript.'
   }
 ];
 
@@ -19,6 +20,7 @@ const Experience = () => {
         <div className='item-div' key={index}>
           <h3>{item.organisation}</h3>
           <p>{item.time}</p>
+          <p>{item.team}</p>
           <ul>
             <li>{item.intro}</li>
             <li>{item.development}</li> {/* Corrected typo in property name */}
